@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+       <header>
+         <nav class="navbar navbar-expand-lg   ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="index.html"><h1 class="text-white">Furni<span class="opacity-50">.</span></h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end  me-5" id="navbarNav">
+                    <ul class="navbar-nav justify-content-between gap-3 align-items-lg-center" >
+                        <li class="nav-item">
+                            <a class="nav-link  " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center gap-4">
+                                <img class="nav-icons" src="images/user.svg" alt="">
+                                <a href="cart.html"><img class="nav-icons " src="images/cart.svg" alt=""></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="hero">
+        <div class="container py-5">
+            <div class="d-flex justify-content-between align-items-center flex-column flex-lg-row">
+
+                <div class="d-flex flex-column justify-content-between align-items-start gap-4">
+                    <h2 class="text-white fs-1 h1 fw-bold ">Modern Interior<br>Design Studio</h2>
+                    <p class="w-75 text-white opacity-50">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+                    
+                    <div class="d-flex gap-3">
+                        <a class="button fs-5 bg-warning" href="">Shop Now</a>
+                        <a class="button fs-5 text-white border border-3 border-white border-opacity-50  " href="">Explore</a>
+                    </div>
+
+                </div>
+
+                <div class="hero-imgs row w-100">
+                    <img class="couch col-12  w-100" src="images/couch.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </header>
+    <main>
+        <section class="cart-section">
+      <div class="container">
+        <div class="table-responsive mb-5">
+          <table>
+            <thead class="table-head">
+              <tr class="row text-center">
+                <th class="col-2 thead-title">Image</th>
+                <th class="col-2 thead-title">Product</th>
+                <th class="col-2 thead-title">Price</th>
+                <th class="col-2 thead-title">Quantity</th>
+                <th class="col-2 thead-title">Total</th>
+                <th class="col-2 thead-title">Remove</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row pt-5 text-center">
+                <td class="col-2 table-items">
+                  <img src="images/product-1.png" class="img-fluid" alt="">
+                </td>
+                <td class="col-2 table-items">
+                  <span class="fw-medium fs-5">Product 1</span>
+                </td>
+                <td class="col-2 table-items">
+                  <span class="opacity-75">$49.00</span>
+                </td>
+                <td class="col-2 table-items">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button type="button" class="btn d-flex justify-content-center align-items-center">
+                      -
+                    </button>
+                    <input type="text" value="1" placeholder="3" class="form-control quantity-input">
+                    <button type="button" class="btn d-flex justify-content-center align-items-center">
+                      +
+                    </button>
+                  </div>
+                </td>
+                <td class="col-2 table-items">
+                  <span class="opacity-75">$49.00</span>
+                </td>
+                <td class="col-2 table-items">
+                  <button type="button" class="btn">
+                    <i class="fa-solid fa-x"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr class="row pt-5 text-center">
+                <td class="col-2 table-items">
+                  <img src="images/product-2.png" class="img-fluid" alt="">
+                </td>
+                <td class="col-2 table-items">
+                  <span class="fw-medium fs-5">Product 2</span>
+                </td>
+                <td class="col-2 table-items">
+                  <span class="opacity-75">$49.00</span>
+                </td>
+                <td class="col-2 table-items">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button type="button" class="btn d-flex justify-content-center align-items-center">
+                      -
+                    </button>
+                    <input type="text" value="1" placeholder="3" class="form-control quantity-input">
+                    <button type="button" class="btn d-flex justify-content-center align-items-center">
+                      +
+                    </button>
+                  </div>
+                </td>
+                <td class="col-2 table-items">
+                  <span class="opacity-75">$49.00</span>
+                </td>
+                <td class="col-2 table-items">
+                  <button type="button" class="btn">
+                    <i class="fa-solid fa-x"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-5 flex-wrap">
+          <div class="mb-3">
+            <a href="shop.html" title="Go to Shop Page"><button class="btn btn-dark rounded-5 px-4 py-3 fw-bold">
+                Continue Shopping
+              </button></a>
+          </div>
+          <div class="mb-3">
+            <button type="button" class="btn btn-dark rounded-5 px-4 py-3 fw-bold" title="Delete All Orders">
+              Update Cart
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Coupon</h2>
+            <p class="opacity-75">Enter your coupon code if you have one.</p>
+            <div class="row align-items-center mb-5 mb-lg-0">
+              <div class="col-8">
+                <input type="text" class="form-control py-3" placeholder="Coupon Code">
+              </div>
+              <div class="col-4">
+                <button type="button" class="btn btn-dark rounded-5 px-4 py-3 fw-medium">
+                  Apply Coupon
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-2">
+            <h3 class="border-bottom pb-3 mb-3 text-center ps-lg-4 text-lg-start">CART TOTAL</h3>
+            <div class="row justify-content-between">
+              <div class="d-flex flex-column flex-lg-row justify-content-between mb-3 col-3 col-lg-12">
+                <span class="fw-medium">Subtotal</span>
+                <span class="fw-bold">$230.00</span>
+              </div>
+              <div class="d-flex flex-column flex-lg-row justify-content-between mb-3 col-3 col-lg-12">
+                <span class="fw-medium">Total</span>
+                <span class="fw-bold">$230.00</span>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+</body>
+</html>
